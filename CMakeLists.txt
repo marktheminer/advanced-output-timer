@@ -31,9 +31,10 @@ if(ENABLE_QT)
     ${CMAKE_PROJECT_NAME}
     PROPERTIES AUTOMOC ON
                AUTOUIC ON
+               AUTOUIC_SEARCH_PATHS forms
                AUTORCC ON)
 endif()
-
-target_sources(${CMAKE_PROJECT_NAME} PRIVATE src/plugin-main.c)
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE forms/new-output-timer.ui)
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE src/plugin-main.c src/NewOutputTimer.cpp)
 
 set_target_properties_plugin(${CMAKE_PROJECT_NAME} PROPERTIES OUTPUT_NAME ${_name})

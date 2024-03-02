@@ -33,16 +33,15 @@
     },
     "platformConfig": {
         "macos": {
-            "bundleId": "com.example.obs-plugintemplate"
+            "bundleId": "com.github.marktheminer.new-output-timer"
         }
     },
-    "name": "obs-plugintemplate",
-    "displayName": "OBS Plugin Template",
+    "name": "advanced-output-timer",
+    "displayName": "Advanced Output Timer",
     "version": "1.0.0",
-    "author": "Your Name Here",
-    "website": "https://example.com",
-    "email": "me@example.com",
+    "author": "Mark Jones",
+    "website": "https://github.com/marktheminer/new-output-timer",
+    "email": "mark.jones1112+nospam@gmail.com",
     "uuids": {
-        "windowsApp": "00000000-0000-0000-0000-000000000000"
-    }
-}
+        "windowsApp": "a4eae3eb-db3e-4568-9bbb-35b4a3608117"
+    }}
