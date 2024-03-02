@@ -22,8 +22,12 @@ with this program. If not, see <https://www.gnu.org/licenses/>
 OBS_DECLARE_MODULE()
 OBS_MODULE_USE_DEFAULT_LOCALE(PLUGIN_NAME, "en-US")
 
+void InitOutputTimer();
+void FreeOutputTimer();
+
 bool obs_module_load(void)
 {
+	InitOutputTimer();
 	obs_log(LOG_INFO, "plugin loaded successfully (version %s)",
 		PLUGIN_VERSION);
 	return true;
@@ -31,5 +35,6 @@ bool obs_module_load(void)
 
 void obs_module_unload(void)
 {
+	FreeOutputTimer();
 	obs_log(LOG_INFO, "plugin unloaded");
 }
