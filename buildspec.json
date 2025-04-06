@@ -33,14 +33,14 @@
     },
     "platformConfig": {
         "macos": {
-            "bundleId": "com.github.marktheminer.new-output-timer"
+            "bundleId": "com.github.marktheminer.advanced-output-timer"
         }
     },
     "name": "advanced-output-timer",
     "displayName": "Advanced Output Timer",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Mark Jones",
-    "website": "https://github.com/marktheminer/new-output-timer",
+    "website": "https://github.com/marktheminer/advanced-output-timer",
     "email": "mark.jones1112+nospam@gmail.com",
     "uuids": {
         "windowsApp": "a4eae3eb-db3e-4568-9bbb-35b4a3608117"
